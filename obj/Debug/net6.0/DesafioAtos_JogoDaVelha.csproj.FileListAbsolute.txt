@@ -1,0 +1,15 @@
+D:\LEANDRO\CURSOS\AcademiaAtosNET2023\Aula10\AcademiaAtos_Desafio_JogoDaVelha\DesafioAtos_JogoDaVelha\bin\Debug\net6.0\DesafioAtos_JogoDaVelha.exe
+D:\LEANDRO\CURSOS\AcademiaAtosNET2023\Aula10\AcademiaAtos_Desafio_JogoDaVelha\DesafioAtos_JogoDaVelha\bin\Debug\net6.0\DesafioAtos_JogoDaVelha.deps.json
+D:\LEANDRO\CURSOS\AcademiaAtosNET2023\Aula10\AcademiaAtos_Desafio_JogoDaVelha\DesafioAtos_JogoDaVelha\bin\Debug\net6.0\DesafioAtos_JogoDaVelha.runtimeconfig.json
+D:\LEANDRO\CURSOS\AcademiaAtosNET2023\Aula10\AcademiaAtos_Desafio_JogoDaVelha\DesafioAtos_JogoDaVelha\bin\Debug\net6.0\DesafioAtos_JogoDaVelha.dll
+D:\LEANDRO\CURSOS\AcademiaAtosNET2023\Aula10\AcademiaAtos_Desafio_JogoDaVelha\DesafioAtos_JogoDaVelha\bin\Debug\net6.0\DesafioAtos_JogoDaVelha.pdb
+D:\LEANDRO\CURSOS\AcademiaAtosNET2023\Aula10\AcademiaAtos_Desafio_JogoDaVelha\DesafioAtos_JogoDaVelha\obj\Debug\net6.0\DesafioAtos_JogoDaVelha.csproj.AssemblyReference.cache
+D:\LEANDRO\CURSOS\AcademiaAtosNET2023\Aula10\AcademiaAtos_Desafio_JogoDaVelha\DesafioAtos_JogoDaVelha\obj\Debug\net6.0\DesafioAtos_JogoDaVelha.GeneratedMSBuildEditorConfig.editorconfig
+D:\LEANDRO\CURSOS\AcademiaAtosNET2023\Aula10\AcademiaAtos_Desafio_JogoDaVelha\DesafioAtos_JogoDaVelha\obj\Debug\net6.0\DesafioAtos_JogoDaVelha.AssemblyInfoInputs.cache
+D:\LEANDRO\CURSOS\AcademiaAtosNET2023\Aula10\AcademiaAtos_Desafio_JogoDaVelha\DesafioAtos_JogoDaVelha\obj\Debug\net6.0\DesafioAtos_JogoDaVelha.AssemblyInfo.cs
+D:\LEANDRO\CURSOS\AcademiaAtosNET2023\Aula10\AcademiaAtos_Desafio_JogoDaVelha\DesafioAtos_JogoDaVelha\obj\Debug\net6.0\DesafioAtos_JogoDaVelha.csproj.CoreCompileInputs.cache
+D:\LEANDRO\CURSOS\AcademiaAtosNET2023\Aula10\AcademiaAtos_Desafio_JogoDaVelha\DesafioAtos_JogoDaVelha\obj\Debug\net6.0\DesafioAtos_JogoDaVelha.dll
+D:\LEANDRO\CURSOS\AcademiaAtosNET2023\Aula10\AcademiaAtos_Desafio_JogoDaVelha\DesafioAtos_JogoDaVelha\obj\Debug\net6.0\refint\DesafioAtos_JogoDaVelha.dll
+D:\LEANDRO\CURSOS\AcademiaAtosNET2023\Aula10\AcademiaAtos_Desafio_JogoDaVelha\DesafioAtos_JogoDaVelha\obj\Debug\net6.0\DesafioAtos_JogoDaVelha.pdb
+D:\LEANDRO\CURSOS\AcademiaAtosNET2023\Aula10\AcademiaAtos_Desafio_JogoDaVelha\DesafioAtos_JogoDaVelha\obj\Debug\net6.0\DesafioAtos_JogoDaVelha.genruntimeconfig.cache
+D:\LEANDRO\CURSOS\AcademiaAtosNET2023\Aula10\AcademiaAtos_Desafio_JogoDaVelha\DesafioAtos_JogoDaVelha\obj\Debug\net6.0\ref\DesafioAtos_JogoDaVelha.dll

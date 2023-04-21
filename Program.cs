@@ -34,7 +34,7 @@ namespace DesafioAtos_JogoDaVelha
                 Console.Write("Digite o nome do jogador 1 >>>>>>> ");
                 string player1 = Console.ReadLine().ToUpper(); // Úsuário digita o nome do jogador 1
                 Console.WriteLine("/////////////////////////////////////////////////////");
-                Console.Write("Deseja jogar com a IA? (s/n): ");
+                Console.Write("Deseja jogar com a IA? (s/n): "); // Pergunta se quer jogar contra IA
                 string player2 = Console.ReadLine().ToUpper();
                 if (player2 == "S")
                 {
@@ -81,16 +81,18 @@ namespace DesafioAtos_JogoDaVelha
                         break;
                     }
                     
-                    // Jogada da IA
+                    // Jogadas
                     if (!player1Jogar)
                     {
+                        // Jogada player 1
                         Console.WriteLine($"////////// {player1}, é sua vez (X)!");
                         int[] move = GetPlayerMove();
                         tabuleiro[move[0], move[1]] = 'X';
                     }
-                    // Jogada do jogador
+                    // Jogada da IA ou Player 2
                     else if (player2 != "IA")
                     {
+                        // Jogada player 2
                         Console.WriteLine($"////////// {player2}, é sua vez (0)!");
                         int[] move = GetPlayerMove();
                         tabuleiro[move[0], move[1]] = '0';
@@ -98,8 +100,9 @@ namespace DesafioAtos_JogoDaVelha
                     }
                     else
                     {
+                        // Jogada da IA
                         Console.WriteLine($"//////////  {player2} está pensando.....");
-                        System.Threading.Thread.Sleep(2500); // Esperar 2 segundo
+                        System.Threading.Thread.Sleep(2500); // Esperar 2,5 segundo
                         int[] move = GetAIMove();
                         tabuleiro[move[0], move[1]] = '0';
                     }
@@ -137,7 +140,7 @@ namespace DesafioAtos_JogoDaVelha
             Console.WriteLine("/X 0 X 0 X 0 X 0 X 0 X 0 X 0 X 0 X 0 X 0 X 0 X 0 X 0/\n");
         }
 
-        static bool CheckTie()
+        static bool CheckTie() // Checagem de empate
         {
             for (int i = 0; i < 3; i++)
             {
@@ -152,7 +155,7 @@ namespace DesafioAtos_JogoDaVelha
             return true;
         }
 
-        static int[] GetPlayerMove()
+        static int[] GetPlayerMove() // Jogada dos payers
         {
             while (true)
             {
@@ -179,7 +182,7 @@ namespace DesafioAtos_JogoDaVelha
                 return new int[] { x, y };
             }
         }
-        static int[] GetAIMove()
+        static int[] GetAIMove() // Jogada da IA
         {
             // Verificar se a IA pode ganhar na próxima jogada
             for (int i = 0; i < 3; i++)
@@ -249,7 +252,7 @@ namespace DesafioAtos_JogoDaVelha
             throw new Exception("Erro na jogada da IA.");
         }
 
-        static bool CheckWin(char player)
+        static bool CheckWin(char player) // checagem da vitoria de todos jogadores
         {
             // Verificar linhas
             for (int i = 0; i < 3; i++)
@@ -281,7 +284,7 @@ namespace DesafioAtos_JogoDaVelha
             return false;
         }
 
-        public static string Saudacao()
+        public static string Saudacao() // Saudação do inicio 
         {
             DateTime agora = DateTime.Now;
             string saudacao = "";
